@@ -61,6 +61,7 @@ body{
     grid-column: 3 / 9;
     background-color: #fafafa;
     padding: 2%;
+    height: 100vh;
 }
 
 .hero{
@@ -103,11 +104,11 @@ body{
 .card-list{
     display: flex;
     margin-top: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card{
-    border-radius: 10%;
+    border-radius: 20px;
     border: 2px rgba(238, 238, 238, 0.9) solid;
     padding: 0%;
     margin: 0%;
@@ -117,6 +118,7 @@ body{
     height: 200px;
     width: 250px;
     border-radius: 10%;
+    object-fit: cover;
 }
 
 .card-body{
